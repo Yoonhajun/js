@@ -1,12 +1,16 @@
 h1 {
-  color: aqua;
+  color: rgb(148, 232, 232);
 }
 
 #frame {
-  background-color: blue;
+  background-color: rgb(13, 255, 255);
 }
 
 li {
   font-size: 20px;
   font-weight: bolder;
+}
+
+ul {
+  color: blue;
 }
