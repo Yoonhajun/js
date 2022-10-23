@@ -1,0 +1,26 @@
+h1 {
+    color: blue;
+    font-size: 50px;
+}
+
+a {
+    font-size: 30px;
+    color: blue;
+    line-height: 70px;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color:navy
+}
+
+a:hover {
+    background-color: navy;
+    color: yellow;
+    text-decoration: underline;
+}
+
+a:active {
+    background-color: rgb(63, 63, 236);
+    color: blue;
+}

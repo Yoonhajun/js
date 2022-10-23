@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>주문내역</title>
+        <style>
+            table, td, th{
+                height: 30px;
+                border: 1px solid black;
+                border-collapse:collapse;
+                text-align: center;
+            }
+            th {
+                background-color: yellow;
+                color: blue
+            }
+            td {
+                color: blue
+            }
+        </style>
+    </head>
+    <body>
+        <h1>주문내역</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>상호</th>
+                    <th>수량</th>
+                    <th>주문</th>
+                </tr>
+                <tr>
+                    <th>주문처</th>
+                    <th colspan="2">주문내역</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>롯데버거</td>
+                    <td>14</td>
+                    <td>포장</td>
+                </tr>
+                <tr>
+                    <td>버거버거</td>
+                    <td>34</td>
+                    <td>배달</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">신속초밥</td>
+                    <td>25</td>
+                    <td>포장</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>배달</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

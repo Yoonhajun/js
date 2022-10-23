@@ -1,0 +1,22 @@
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 7px;
+}
+
+h1{
+    background-color: rgb(3, 31, 56);
+    color: white;
+}
+
+th {
+    background-color: aqua;
+}
+
+.order {
+    color: red;
+    font-weight: bolder;
+    font-style: italic;
+}
+

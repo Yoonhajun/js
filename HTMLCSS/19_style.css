@@ -1,0 +1,21 @@
+h1 {
+    background-color: aqua;
+    color: blue;
+    font-size: 100px;
+}
+
+a {
+    color: blue;
+    font-size: 70px;
+    text-decoration: none;
+}
+
+a:active {
+    background-color: rgb(68, 68, 250);
+    color: blue;
+}
+
+a:hover {
+    background-color: aqua;
+    color: navy;
+}

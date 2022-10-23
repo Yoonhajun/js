@@ -1,0 +1,23 @@
+.btn {
+    width: 300px;
+    height: 80px;
+    background-color: aqua;
+    border: 1px solid skyblue;
+    margin: 10px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+a:link, a:visited, div:link, div:visited {
+    text-decoration: none;
+    color: blue;
+}
+div:hover,div:active {
+    background-color: skyblue;
+    color: rgb(26, 26, 136);
+    text-decoration: underline;
+    font-size: 30px;
+    box-shadow: 5px 5px 5px rgb(170, 162, 162);
+}

@@ -1,0 +1,16 @@
+h1{
+    font-size: 150px;
+    background-color: blue;
+    color: aqua;
+    font-style: italic;
+}
+h2{
+    color: blue;
+    font-size: 50px;
+    font-style: oblique;
+}
+li{
+    color: rgb(72, 72, 235);
+    font-weight: bolder;
+    font-size: 20px;
+}

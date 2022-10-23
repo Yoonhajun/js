@@ -1,0 +1,20 @@
+table, th, td {
+    border: 1px solid blue;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px
+}
+
+th{
+    background-color: aqua;
+}
+
+h1 {
+    color: rgb(52, 20, 228);
+}
+
+.num {
+    color: blue;
+    font-weight: bolder;
+    font-style: italic;
+}

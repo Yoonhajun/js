@@ -1,0 +1,2727 @@
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ko"> <!-- 영문페이지에서는 lang="en" 으로 해주시면 됩니다. -->
+<head>
+<meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, target-densitydpi=medium-dpi" name="viewport" />
+<meta name="format-detection" content="telephone=no" />
+<link rel="shortcut icon" type="image/x-icon" href="/images/favicon/shinsegae_ci16.ico">
+<link rel="icon" type="image/x-icon" href="/images/favicon/shinsegae_ci16.ico">
+<!-- 네이버 검색 연계 채널등록 -->
+<span itemscope="" itemtype="http://schema.org/Organization">
+<link itemprop="url" href="http://www.shinsegaefood.com">
+<a itemprop="sameAs" href="https://www.facebook.com/shinsegaefoodfnb"></a>
+<a itemprop="sameAs" href="https://www.instagram.com/shinsegaefood.official"></a>
+<a itemprop="sameAs" href="https://smartstore.naver.com/ssgfood-mall"></a>
+<a itemprop="sameAs" href="https://www.youtube.com/channel/UC9D4PXxFPeFphOT5a_MQm0w"></a>
+</span>
+<br/>
+
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	<title>
+		 메뉴_
+		
+	노브랜드버거</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+
+	<meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=3, user-scalable=no, target-densitydpi=medium-dpi" name="viewport" />
+	<link rel="stylesheet" type="text/css" href="/brand/nobrandburger/css/brand_setup.css" media="all" />
+	<!-- SCRIPT 링크 -->
+	<script src="/js/jquery-1.11.3.min.js"></script>
+	<script src="/js/jquery.bxslider.min.js"></script>
+	<script src="/js/html5.js"></script>
+	<script src="/brand/nobrandburger/js/common.js"></script>
+	<script type="text/javascript">
+	jQuery(document).ready(function(){
+		var brandName = $("#brandName").val();
+		if(brandName == "deandeluca" || brandName == "gramercyhall" || brandName == "threetwins" || brandName == "cheftogo"){
+			location.replace('https://www.shinsegaefood.com');
+		}
+	});
+	function setShow(type){
+		$(".sec_brd_menu").hide();
+		$("."+type).show();
+	}
+	function setShow1(type){
+		$(".sec_brd_menu").hide();
+		$("."+type).show();
+	}
+	function setShowAll(){
+		$(".sec_brd_menu").show();
+	}
+	
+	
+	function popup(){
+		var url = "/popup/nobrandburger_01.html";
+		var name = "nobrandburger_foodinfo";
+		var option = "toolbar=no, location=no, directories=no, status=no, menubar=no, resizable=no, scrollbars=yes, width=1017, height=700, top=100, left=480";
+		
+		window.open(url, name, option);
+	}
+	
+	
+	
+	
+	
+	</script>
+	<!-- SCRIPT 링크 -->
+</head>
+<body>
+	<div id="skip_nav">
+		<a href="#brand_middle">본문 바로가기</a>
+		<a href="#brand_gnb">메뉴 바로가기</a>
+	</div>
+	<div class="brand_wrap">
+
+		
+		<header id="brand_header">
+			<div class="wrap">
+			
+				<div class="bg_sub"><img src="/brand/nobrandburger/images/background/bg_brand_sub.png" alt="nobrandburger" /></div>
+			
+			
+			
+			
+				<h1 class="brand_logo"><a href="/nobrandburger/index.sf"><img src="/brand/nobrandburger/images/background/brand_logo.png" alt="nobrandburger" /></a></h1>
+			
+			
+				
+				
+				<nav id="brand_gnb">
+					<div class="brd_gnb_wrap">
+						<ul>
+							
+							
+								<li class="">
+								<a href="/nobrandburger/brandstory/brandstory.sf"><span>
+									
+										
+										
+										
+											브랜드스토리
+										
+									
+								</span></a></li>
+							
+							
+							
+							
+								<li class="on">
+								<a href="/nobrandburger/menu/menu.sf"><span>
+									
+										
+										
+										
+											메뉴
+										
+									
+								</span></a></li>
+							
+							
+								
+							
+							
+							
+								<li class="">
+								<a href="/nobrandburger/store/store.sf"><span>
+									
+										
+										
+										
+											매장
+										
+									
+								</span></a></li>
+							
+							
+							
+							
+								<li class="">
+								<a href="/nobrandburger/news_list/news_list.sf"><span>
+									
+										
+										
+										
+											뉴스&이벤트
+										
+									
+								</span></a></li>
+							
+							
+							
+							
+							
+							
+							<!-- //자니로켓 가맹안내 추가(20160711) -->
+							
+							
+								<li><a href="/nobrandburger/franchise/nbbFranchise.sf" target="_blank"><span>가맹안내</span></a></li>
+							
+							
+							
+							
+							
+							
+								<li><a href="http://www.shinsegaefood.com/cs/voc.sf" title="새창으로 열립니다" target="_blank"><span>고객지원</span></a></li>
+							
+							
+						</ul>
+						<a href="#none" class="brand_tip">TIP</a>
+					</div>
+				</nav>
+			</div>
+		</header>
+<script>
+$(document).ready(function(){
+	/* 멀티미디어 삭제, 퍼센트 수정 */	
+	if($('.brd_gnb_wrap > ul > li').eq(3).find("a").attr("href")=="/olbaan_master/multimedia/multimedia.sf"){
+		$(".brd_gnb_wrap > ul >li").eq(3).hide();
+		$(".brd_gnb_wrap > ul >li").css("width","25%");
+	}
+	function brandGNBResize(){
+		if ( $(window).width() <= 640 ) {
+			$('.brd_gnb_wrap > ul > li').each(function(){
+				if ( $(this).find('span').text().trim() == '브랜드스토리') {
+					$(this).find('span').html('브랜드<br />스토리');
+				}
+				else if ( $(this).find('span').text().trim() == '뉴스&이벤트') {
+					$(this).find('span').html('뉴스&amp;<br />이벤트');
+				}else if ( $(this).find('span').text().trim() == '멀티미디어') {
+					$(this).remove();
+				};
+			});
+		};
+	};
+	brandGNBResize();
+	$(window).resize(function(){
+		brandGNBResize();
+	});
+	
+	// 메뉴 클릭 시 하단으로 이동 20211110
+	$('.brd_menu_list li a').on('click', function(){
+		$('html, body').animate({scrollTop : $(document).height()}, 200);
+		return false;
+	});
+});
+</script>
+
+		<div id="brand_middle" class="menu"><!-- 해당 페이지 클래스 -->
+			<div class="wrap">
+				<div class="brand_location">
+					<a href="/nobrandburger/index.sf" class="btn_home">Home</a> &gt; <a href="#none">
+						 <em title="현재 페이지입니다.">메뉴</em>
+						
+					</a> 
+				</div>
+				<div class="brd_tit_area">
+					<h2 class="tit_brd01">
+						 메뉴 
+						
+					</h2>
+					
+					 	<p class="txt_brd07" style="margin-top: 25px;">상기 메뉴는 매장에 따라 일부 상이할 수 있습니다.</p>
+										
+				</div>
+				
+				
+				<nav class="brd_menu_nav">
+					<ul>
+						<li class="on"><a href="JAVASCRIPT:setShowAll()">전체</a></li>
+						
+							<li><a href="JAVASCRIPT:setShow('218')">Super-licious Burger</a></li>
+						
+							<li><a href="JAVASCRIPT:setShow('246')">Signature Burger Pack</a></li>
+						
+							<li><a href="JAVASCRIPT:setShow('219')">House Special</a></li>
+						
+							<li><a href="JAVASCRIPT:setShow('220')">Salad</a></li>
+						
+							<li><a href="JAVASCRIPT:setShow('221')">Side</a></li>
+						
+							<li><a href="JAVASCRIPT:setShow('222')">Beverage</a></li>
+						
+					</ul>
+				</nav>
+				
+				
+				<!-- 20210428 추가 -->
+				<div class="brd_nutrient_info">
+					<a href="javascript:popup();"><img src="/brand/nobrandburger/images/background/btn_brd_nutrient.png" alt="NBB 원산지/영양성분/알레르기 유발물질 팝업 보기" /></a>
+				</div>
+				<!-- //20210428 추가 -->
+				
+				
+				
+				
+
+				<div class="sec_area">
+					
+					<section class="sec_brd_menu 218">
+						<div class="brd_tit_area02">
+							<h2 class="tit_brd02">Super-licious Burger</h2>
+							<p class="txt_brd07"></p>
+						</div>
+						<div class="brd_menu_list">
+							<ul>
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2022/07/28/크레이지_해쉬_단품.png" alt="크레이지 레드해쉬</br>
+Crazy Red Hash" /></span>
+											<figcaption>크레이지 레드해쉬</br>
+Crazy Red Hash</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2022/05/24/더블골드커리.png" alt="더블 골드커리</br>
+Double Gold Curry" /></span>
+											<figcaption>더블 골드커리</br>
+Double Gold Curry</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2022/05/24/골드커리.png" alt="골드커리</br>	
+Gold Curry" /></span>
+											<figcaption>골드커리</br>	
+Gold Curry</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2022/04/20/더블치즈_베이컨_시그니처(1).png" alt="더블치즈 베이컨 시그니처</br>
+Double Cheese Bacon Signature" /></span>
+											<figcaption>더블치즈 베이컨 시그니처</br>
+Double Cheese Bacon Signature</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+							
+								
+							
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2021/10/05/갈릭앤갈릭버거_460x270.png" alt="갈릭앤갈릭</br>
+Garlic & Garlic" /></span>
+											<figcaption>갈릭앤갈릭</br>
+Garlic & Garlic</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2021/05/21/페퍼로니버거_home.png" alt="페퍼로니</br>
+Pepperoni" /></span>
+											<figcaption>페퍼로니</br>
+Pepperoni</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2021/05/21/페퍼로니치킨_home.png" alt="페퍼로니 치킨</br>
+Pepperoni Chicken" /></span>
+											<figcaption>페퍼로니 치킨</br>
+Pepperoni Chicken</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2020/07/17/코울슬로치킨.png" alt="코울슬로 치킨</br>
+Coleslaw Chicken" /></span>
+											<figcaption>코울슬로 치킨</br>
+Coleslaw Chicken</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2020/07/17/데리마요버거.png" alt="데리 마요</br>
+Teri-Mayo" /></span>
+											<figcaption>데리 마요</br>
+Teri-Mayo</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2019/09/20/NBB오리지널(2).png" alt="NBB 오리지널</br>
+NBB Original" /></span>
+											<figcaption>NBB 오리지널</br>
+NBB Original</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+							
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2019/09/20/NBB어메이징(2).png" alt="NBB 어메이징</br>
+NBB Amazing" /></span>
+											<figcaption>NBB 어메이징</br>
+NBB Amazing</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2019/09/20/NBB시그니처(1).png" alt="NBB 시그니처</br>
+NBB Signature" /></span>
+											<figcaption>NBB 시그니처</br>
+NBB Signature</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2019/09/20/스모키살사.png" alt="스모키살사</br>
+Smoky Salsa" /></span>
+											<figcaption>스모키살사</br>
+Smoky Salsa</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2019/09/20/미트마니아.png" alt="미트 마니아</br>
+Meatmania" /></span>
+											<figcaption>미트 마니아</br>
+Meatmania</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2019/09/20/그릴드불고기.png" alt="그릴드 불고기</br>
+Grilled Bulgogi" /></span>
+											<figcaption>그릴드 불고기</br>
+Grilled Bulgogi</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2019/09/20/산체스.png" alt="산체스</br>
+Guacamole" /></span>
+											<figcaption>산체스</br>
+Guacamole</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2019/09/20/메가바이트.png" alt="메가바이트</br>
+Mega-bite" /></span>
+											<figcaption>메가바이트</br>
+Mega-bite</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2020/07/17/스리라차치킨.png" alt="스리라차 치킨</br>
+Sriracha Chicken" /></span>
+											<figcaption>스리라차 치킨</br>
+Sriracha Chicken</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+							</ul>
+						</div>
+						
+						<div class="brd_menu_popup">
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2022/07/28/크레이지_해쉬_단품.png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Super-licious Burger</span>크레이지 레드해쉬</br>
+Crazy Red Hash</dfn>
+											</figcaption>
+										</figure>
+										<p><p>화끈한 크레이지 레드소스와 부드러운 해쉬브라운의 조화로 중독성있는 매운맛 버거</p>
+
+<p>&nbsp;</p>
+</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2022/05/24/더블골드커리.png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Super-licious Burger</span>더블 골드커리</br>
+Double Gold Curry</dfn>
+											</figcaption>
+										</figure>
+										<p>더블 미트패티에 치즈, 이색 풍미 가득한 커리를<br />
+버거 소스로 활용한 NBB만의 커리버거</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2022/05/24/골드커리.png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Super-licious Burger</span>골드커리</br>	
+Gold Curry</dfn>
+											</figcaption>
+										</figure>
+										<p>두툼한 미트패티에 이색 풍미 가득한 커리를<br />
+버거 소스로 활용한&nbsp;NBB만의 커리버거</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2022/04/20/더블치즈_베이컨_시그니처(1).png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Super-licious Burger</span>더블치즈 베이컨 시그니처</br>
+Double Cheese Bacon Signature</dfn>
+											</figcaption>
+										</figure>
+										<p>베이컨과 더블치즈가 만나 스모크한 풍미와&nbsp;고소함이&nbsp;더해진 아메리칸 클래식&nbsp;버거</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2021/10/05/갈릭앤갈릭버거_460x270.png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Super-licious Burger</span>갈릭앤갈릭</br>
+Garlic & Garlic</dfn>
+											</figcaption>
+										</figure>
+										<p>갈릭칩과 갈릭소스로 진한 갈릭의 풍미가 2배인 버거</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2021/05/21/페퍼로니버거_home.png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Super-licious Burger</span>페퍼로니</br>
+Pepperoni</dfn>
+											</figcaption>
+										</figure>
+										<p>두툼한 패티 위에 풍미 가득 페퍼로니와 진한 치즈가 더해진 버거</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2021/05/21/페퍼로니치킨_home.png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Super-licious Burger</span>페퍼로니 치킨</br>
+Pepperoni Chicken</dfn>
+											</figcaption>
+										</figure>
+										<p>통살 치킨&nbsp;패티와 풍미 가득 페퍼로니, 토마토 소스가&nbsp;더해진 버거</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2020/07/17/코울슬로치킨.png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Super-licious Burger</span>코울슬로 치킨</br>
+Coleslaw Chicken</dfn>
+											</figcaption>
+										</figure>
+										<p>아삭한 식감이 살아있는 달콤한 코울슬로와 바삭하게 튀긴 통가슴살 치킨 패티가 어우러진 버거</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2020/07/17/데리마요버거.png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Super-licious Burger</span>데리 마요</br>
+Teri-Mayo</dfn>
+											</figcaption>
+										</figure>
+										<p>두툼한 직화 미트 패티에 달콤한 데리소스가 더해진 버거</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2019/09/20/NBB오리지널(2).png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Super-licious Burger</span>NBB 오리지널</br>
+NBB Original</dfn>
+											</figcaption>
+										</figure>
+										<p>직화로 구워낸 두툼한 미트 패티에 신선한 양상추와 토마토, NBB 특제 버거 소스를 더한 오리지널 버거</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+
+							
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2019/09/20/NBB어메이징(2).png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Super-licious Burger</span>NBB 어메이징</br>
+NBB Amazing</dfn>
+											</figcaption>
+										</figure>
+										<p>더블 패티 &amp; 더블 치즈, 어메이징한 크기의 NBB 어메이징 버거</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2019/09/20/NBB시그니처(1).png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Super-licious Burger</span>NBB 시그니처</br>
+NBB Signature</dfn>
+											</figcaption>
+										</figure>
+										<p>직화로 불맛을 살린 두툼한 미트 패티에 진한 치즈를 얹어 깊은 맛을 선사하는 치즈버거</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2019/09/20/스모키살사.png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Super-licious Burger</span>스모키살사</br>
+Smoky Salsa</dfn>
+											</figcaption>
+										</figure>
+										<p>두툼한 직화 미트 패티에 매콤한 살사소스가 더해져 느끼함을 잡은 버거</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2019/09/20/미트마니아.png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Super-licious Burger</span>미트 마니아</br>
+Meatmania</dfn>
+											</figcaption>
+										</figure>
+										<p>더블 패티와 더블 치즈, 고급스러운 트러플 핫 페퍼 소스에 계란후라이까지 든든한 버거</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2019/09/20/그릴드불고기.png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Super-licious Burger</span>그릴드 불고기</br>
+Grilled Bulgogi</dfn>
+											</figcaption>
+										</figure>
+										<p>직화 미트 패티에 한국인이 가장 좋아하는 불고기 소스를 더한 NBB 최고 가성비 버거</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2019/09/20/산체스.png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Super-licious Burger</span>산체스</br>
+Guacamole</dfn>
+											</figcaption>
+										</figure>
+										<p>고소하고 부드러운 아보카도 소스와 NBB 직화 패티가 만나 멕시코 느낌 그대로, 산체스버거</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2019/09/20/메가바이트.png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Super-licious Burger</span>메가바이트</br>
+Mega-bite</dfn>
+											</figcaption>
+										</figure>
+										<p>두툼한 직미트 패티에 바삭 해쉬브라운이 더해져 색다른 식감과 풍성한 양을 자랑하는 버거</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2020/07/17/스리라차치킨.png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Super-licious Burger</span>스리라차 치킨</br>
+Sriracha Chicken</dfn>
+											</figcaption>
+										</figure>
+										<p>매콤한 태국식 스리라차에 달콤함을 더한 스페셜 소스와 바삭하게 튀긴 통가슴살 치킨 패티가 어우러진 버거</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							</div>
+							
+					</section>
+					
+					<section class="sec_brd_menu 246">
+						<div class="brd_tit_area02">
+							<h2 class="tit_brd02">Signature Burger Pack</h2>
+							<p class="txt_brd07"></p>
+						</div>
+						<div class="brd_menu_list">
+							<ul>
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2022/01/28/211222_시그니처_파티팩.png" alt="시그니처 파티팩</br>
+Signature Party Pack" /></span>
+											<figcaption>시그니처 파티팩</br>
+Signature Party Pack</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2022/01/28/211222_시그니처_투게더팩.png" alt="시그니처 투게더팩</br>
+Signature Together Pack" /></span>
+											<figcaption>시그니처 투게더팩</br>
+Signature Together Pack</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+							</ul>
+						</div>
+						
+						<div class="brd_menu_popup">
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2022/01/28/211222_시그니처_파티팩.png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Signature Burger Pack</span>시그니처 파티팩</br>
+Signature Party Pack</dfn>
+											</figcaption>
+										</figure>
+										<p>대표메뉴 NBB 시그니처를<br />
+다양하게 즐길 수 있는 파티팩</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2022/01/28/211222_시그니처_투게더팩.png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Signature Burger Pack</span>시그니처 투게더팩</br>
+Signature Together Pack</dfn>
+											</figcaption>
+										</figure>
+										<p>대표메뉴 NBB 시그니처를 둘이서<br />
+가볍게 즐길&nbsp;수 있는 투게더팩</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							</div>
+							
+					</section>
+					
+					<section class="sec_brd_menu 219">
+						<div class="brd_tit_area02">
+							<h2 class="tit_brd02">House Special</h2>
+							<p class="txt_brd07"></p>
+						</div>
+						<div class="brd_menu_list">
+							<ul>
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2021/06/15/페퍼로니_치아바타.png" alt="페퍼로니 치아바타</br>
+Pepperoni Ciabatta" /></span>
+											<figcaption>페퍼로니 치아바타</br>
+Pepperoni Ciabatta</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2022/05/12/220502_크리스피_상하이포크.png" alt="크리스피 상하이포크</br>
+Crispy Shanghai Pork" /></span>
+											<figcaption>크리스피 상하이포크</br>
+Crispy Shanghai Pork</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+							</ul>
+						</div>
+						
+						<div class="brd_menu_popup">
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2021/06/15/페퍼로니_치아바타.png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>House Special</span>페퍼로니 치아바타</br>
+Pepperoni Ciabatta</dfn>
+											</figcaption>
+										</figure>
+										<p>치아바타에 풍미 가득 페퍼로니와 그릴 치즈로 든든한 오븐 샌드위치</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2022/05/12/220502_크리스피_상하이포크.png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>House Special</span>크리스피 상하이포크</br>
+Crispy Shanghai Pork</dfn>
+											</figcaption>
+										</figure>
+										<p><p>크리스피한 식감과 감칠맛나는 향신료의<br />
+조합으로 자꾸만 손이 가는<br />
+상하이 스타일의 하우스스페셜 메뉴</p>
+</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							</div>
+							
+					</section>
+					
+					<section class="sec_brd_menu 220">
+						<div class="brd_tit_area02">
+							<h2 class="tit_brd02">Salad</h2>
+							<p class="txt_brd07"></p>
+						</div>
+						<div class="brd_menu_list">
+							<ul>
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2022/05/12/220502_상하이포크샐러드_단품(1).png" alt="상하이포크샐러드</br>
+Shanghai Pork Salad" /></span>
+											<figcaption>상하이포크샐러드</br>
+Shanghai Pork Salad</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2022/05/12/220502_치킨시저샐러드_단품.png" alt="치킨시저샐러드</br>
+Chicken Caesar Salad" /></span>
+											<figcaption>치킨시저샐러드</br>
+Chicken Caesar Salad</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2022/05/12/220502_그린샐러드_단품.png" alt="그린샐러드</br>
+Green Salad" /></span>
+											<figcaption>그린샐러드</br>
+Green Salad</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+							</ul>
+						</div>
+						
+						<div class="brd_menu_popup">
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2022/05/12/220502_상하이포크샐러드_단품(1).png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Salad</span>상하이포크샐러드</br>
+Shanghai Pork Salad</dfn>
+											</figcaption>
+										</figure>
+										<p><p>아삭하고 신선한 채소에 든든한 상하이포크 튀김과<br />
+이탈리안드레싱으로 한끼 식사로 손색없는 샐러드</p>
+</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2022/05/12/220502_치킨시저샐러드_단품.png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Salad</span>치킨시저샐러드</br>
+Chicken Caesar Salad</dfn>
+											</figcaption>
+										</figure>
+										<p>아삭하고 신선한 채소에 든든한 치킨 텐더와 갈릭시저드레싱으로 한끼 식사로 손색없는 샐러드</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2022/05/12/220502_그린샐러드_단품.png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Salad</span>그린샐러드</br>
+Green Salad</dfn>
+											</figcaption>
+										</figure>
+										<p>아삭하고 신선한 채소에 이탈리안드레싱으로 한끼 식사로 손색없는 샐러드</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							</div>
+							
+					</section>
+					
+					<section class="sec_brd_menu 221">
+						<div class="brd_tit_area02">
+							<h2 class="tit_brd02">Side</h2>
+							<p class="txt_brd07"></p>
+						</div>
+						<div class="brd_menu_list">
+							<ul>
+							
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2022/08/01/크런치오징어.png" alt="크런치 오징어</br>
+Crunchy Squid" /></span>
+											<figcaption>크런치 오징어</br>
+Crunchy Squid</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2021/09/07/크런치윙.jpg" alt="크런치 윙</br>
+Crunchy Wing" /></span>
+											<figcaption>크런치 윙</br>
+Crunchy Wing</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2021/06/15/슈가버터_프라이.png" alt="슈가버터 프라이</br>
+Sugar Butter Fries" /></span>
+											<figcaption>슈가버터 프라이</br>
+Sugar Butter Fries</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2021/01/29/인절미.png" alt="인절미 치즈볼</br>
+Injeolmi Cheese Ball" /></span>
+											<figcaption>인절미 치즈볼</br>
+Injeolmi Cheese Ball</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2020/07/17/치킨-너겟.png" alt="NBB 치킨 너겟</br>
+Chicken Nugget" /></span>
+											<figcaption>NBB 치킨 너겟</br>
+Chicken Nugget</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2020/07/03/어니언도넛.png" alt="어니언 도넛</br>Onion Doughnut" /></span>
+											<figcaption>어니언 도넛</br>Onion Doughnut</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2019/09/20/감자튀김.png" alt="감자튀김</br>
+French Fries" /></span>
+											<figcaption>감자튀김</br>
+French Fries</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+							</ul>
+						</div>
+						
+						<div class="brd_menu_popup">
+							
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2022/08/01/크런치오징어.png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Side</span>크런치 오징어</br>
+Crunchy Squid</dfn>
+											</figcaption>
+										</figure>
+										<p>오징어를 두툼하게 썰어 넣어<br />
+쫄깃하고&nbsp;바삭한 크런치 오징어</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2021/09/07/크런치윙.jpg" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Side</span>크런치 윙</br>
+Crunchy Wing</dfn>
+											</figcaption>
+										</figure>
+										<p>바삭함이 터지는 NBB만의 크런치 윙</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2021/06/15/슈가버터_프라이.png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Side</span>슈가버터 프라이</br>
+Sugar Butter Fries</dfn>
+											</figcaption>
+										</figure>
+										<p>달콤한 버터 시럽을 뿌린 감자튀김과 진한 그라나파다노 치즈 토핑의 만남</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2021/01/29/인절미.png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Side</span>인절미 치즈볼</br>
+Injeolmi Cheese Ball</dfn>
+											</figcaption>
+										</figure>
+										<p><p>모짜렐라 치즈가 듬뿍 든 바삭한 치즈볼에 고소한 인절미 가루가 더해진 인절미 치즈볼.<br />
+※판매제외매장 : 행담도휴게소점</p>
+</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2020/07/17/치킨-너겟.png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Side</span>NBB 치킨 너겟</br>
+Chicken Nugget</dfn>
+											</figcaption>
+										</figure>
+										<p>닭다리 모양으로 먹는 재미를 더한 바삭한 치킨 너겟</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2020/07/03/어니언도넛.png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Side</span>어니언 도넛</br>Onion Doughnut</dfn>
+											</figcaption>
+										</figure>
+										<p>촉촉함과 바삭함을 동시에 느낄 수 있는 NBB만의 어니언 도넛.<br />
+*판매제외매장: 중화점 / 종로구청점 / 경희대점 / 인천스퀘어원점 / 명지대점 / 남부터미널점 / 스타필드부천점 / 행담도휴게소점</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2019/09/20/감자튀김.png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Side</span>감자튀김</br>
+French Fries</dfn>
+											</figcaption>
+										</figure>
+										<p>포슬포슬한 감자의 질감이 그대로 살아있는 고급 프랜치 프라이</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							</div>
+							
+					</section>
+					
+					<section class="sec_brd_menu 222">
+						<div class="brd_tit_area02">
+							<h2 class="tit_brd02">Beverage</h2>
+							<p class="txt_brd07"></p>
+						</div>
+						<div class="brd_menu_list">
+							<ul>
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2021/12/16/NBB메뉴_브랜드콜라.png" alt="브랜드 콜라/사이다</br>
+Brand Cola/Cider" /></span>
+											<figcaption>브랜드 콜라/사이다</br>
+Brand Cola/Cider</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2022/04/28/NBB메뉴_브랜드제로콜라.png" alt="브랜드 콜라/사이다 제로</br>
+Brand Cola/Cider zero" /></span>
+											<figcaption>브랜드 콜라/사이다 제로</br>
+Brand Cola/Cider zero</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+							
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2019/09/20/콜라.png" alt="탄산음료(펩시콜라/사이다/미린다(오렌지)/펩시제로슈가(라임향))</br>
+Soda" /></span>
+											<figcaption>탄산음료(펩시콜라/사이다/미린다(오렌지)/펩시제로슈가(라임향))</br>
+Soda</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+							
+								
+							
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2019/09/20/오렌지주스.png" alt="오렌지주스</br>
+Orange Juice" /></span>
+											<figcaption>오렌지주스</br>
+Orange Juice</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2019/09/20/커피.png" alt="아메리카노</br>
+Americano" /></span>
+											<figcaption>아메리카노</br>
+Americano</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+							
+								
+								<li>
+									<a href="#none">
+									
+
+										<figure>
+											<span class="pic"><img  onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2021/06/15/노라벨_생수(1).png" alt="노라벨 생수</br>
+Mineral Water" /></span>
+											<figcaption>노라벨 생수</br>
+Mineral Water</figcaption>
+										</figure>
+									</a>
+								</li>
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+							</ul>
+						</div>
+						
+						<div class="brd_menu_popup">
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2021/12/16/NBB메뉴_브랜드콜라.png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Beverage</span>브랜드 콜라/사이다</br>
+Brand Cola/Cider</dfn>
+											</figcaption>
+										</figure>
+										<p>노브랜드 버거에서만 만나볼 수 있는<br />
+브랜드 콜라, 사이다</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2022/04/28/NBB메뉴_브랜드제로콜라.png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Beverage</span>브랜드 콜라/사이다 제로</br>
+Brand Cola/Cider zero</dfn>
+											</figcaption>
+										</figure>
+										<p>부담없이 가볍게 즐길 수 있는<br />
+브랜드 콜라, 사이다 제로&nbsp;</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+
+							
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2019/09/20/콜라.png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Beverage</span>탄산음료(펩시콜라/사이다/미린다(오렌지)/펩시제로슈가(라임향))</br>
+Soda</dfn>
+											</figcaption>
+										</figure>
+										<p>탄산음료(펩시콜라/사이다/미린다(오렌지)/&#39;펩시제로슈가(라임향))</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2019/09/20/오렌지주스.png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Beverage</span>오렌지주스</br>
+Orange Juice</dfn>
+											</figcaption>
+										</figure>
+										<p></p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2019/09/20/커피.png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Beverage</span>아메리카노</br>
+Americano</dfn>
+											</figcaption>
+										</figure>
+										<p></p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+
+							
+							
+								<div class="popup_menu">
+									<div class="bg_trans"></div>
+									<div class="popup_menu_wrap">
+										<figure>
+											<div class="pic"><img onerror="this.src='/images/common/Menu_NoImage.png';"  src="/uimages/2021/06/15/노라벨_생수(1).png" alt="제품사진 입니다." /></div>
+											<figcaption>
+												<dfn><span>Beverage</span>노라벨 생수</br>
+Mineral Water</dfn>
+											</figcaption>
+										</figure>
+										<p>비닐 라벨이 없어 분리배출이 편한 친환경 노라벨 생수</p>
+										<a href="#none" class="btn_menu_close">닫기</a>
+									</div>
+								</div>
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							
+
+							
+							</div>
+							
+					</section>
+					
+
+				</div>
+				
+				
+			</div>
+
+			
+			<!--201501005수정-->
+			<!--div class="brand_cs">
+				<div class="brand_cs_wrap">
+					<a href="/cs/voc.sf" target="_blank" class="btn_brd_cscenter">고객지원</a>
+				</div>
+			</div-->
+			<a href="#brand_middle" class="btn_top">TOP</a>
+
+		</div>
+		<input type="hidden" id="brandName" name="brandName" value="nobrandburger" />
+		
+
+		<aside id="brand_sitemap">
+			<div class="brd_stmp_top">
+				<div class="brd_stmp_top_wrap">
+					<h2 class="btn_brd_sitemap"><a href="#none">SHINSEGAE FOOD</a></h2>
+				</div>
+			</div>
+			<div class="brd_stmp_area">
+				<div class="brd_stmp_left">
+					<p>신세계푸드는<br />식생활 문화를 선도하는<br /><strong>종합식품기업</strong>입니다.</p>
+					<a href="http://www.shinsegaefood.com" target="_blank" title="새 창으로 열립니다." class="btn_brd_go">신세계푸드 웹사이트</a>
+				</div>
+				<div class="brd_stmp_right">
+					<nav>
+						<ul>
+							<li class="li_1">
+								<dfn>외식</dfn>
+								<ul class="depth">
+									<li><a href="/nobrandpizza/index.sf" target="_blank" title="새창으로 열기">노브랜드피자</a></li>
+									<li><a href="/nobrandburger/index.sf" target="_blank" title="새창으로 열기">노브랜드버거</a></li>
+									<li><a href="/devilsdoor/index.sf" target="_blank" title="새창으로 열기">데블스도어</a></li>
+									<li><a href="/johnnyrockets/index.sf" target="_blank" title="새창으로 열기">자니로켓</a></li>
+									<li><a href="/bonobono/index.sf" target="_blank" title="새창으로 열기">보노보노</a></li>
+									<li><a href="/vecchiaenuovo/index.sf" target="_blank" title="새창으로 열기">베키아에누보</a></li>
+									<li><a href="/foodhall/index.sf" target="_blank" title="새창으로 열기">셀렉더테이블</a></li>
+									<li><a href="/oslo/index.sf" target="_blank" title="새창으로 열기">오슬로</a></li>
+									<li><a href="https://www.smoothieking.co.kr" target="_blank" title="새창으로 열기">스무디킹</a></li>
+								</ul>
+							</li>
+							<li class="li_2">
+								<dfn>베이커리</dfn>
+								<ul class="depth">
+									<li><a href="/universebyjrilla/index.sf" target="_blank" title="새창으로 열기">유니버스 바이 제이릴라</a></li>
+									<li><a href="/ebakery/index.sf" target="_blank" title="새창으로 열기">E-베이커리</a></li>
+									<li><a href="/themenagerie/index.sf" target="_blank" title="새창으로 열기">더 메나쥬리</a></li>
+									<li><a href="/milkandhoney/index.sf" target="_blank" title="새창으로 열기">밀크앤허니</a></li>
+									<li><a href="/dayandday/index.sf" target="_blank" title="새창으로 열기">데이앤데이</a></li>
+									<li><a href="/tradersbakery/index.sf" target="_blank" title="새창으로 열기">트레이더스 베이커리</a></li>
+									<li><a href="/boulangerie/index.sf" target="_blank" title="새창으로 열기">블랑제리</a></li>
+									<li><a href="/recette/index.sf" target="_blank" title="새창으로 열기">RECETTE</a></li>
+								</ul>
+							</li>
+							<li class="li_3">
+								<dfn>식품</dfn>
+								<ul class="depth">
+									<li><a href="/olbaan_master/index.sf" target="_blank" title="새창으로 열기">올반</a></li>
+									<li><a href="/brand/chefchoice/index.html" target="_blank" title="새창으로 열기">쉐프초이스</a></li>
+									<li><a href="/vecchiaenuovoretail/index.sf" target="_blank" title="새창으로 열기">베키아에누보 리테일</a></li>
+									<li><a href="/brand/easybalance/index.html" target="_blank" title="새창으로 열기">이지밸런스</a></li>
+									<li><a href="/brand/bettermeat/index.html" target="_blank" title="새창으로 열기">베러미트</a></li>
+									<li><a href="/brand/brandcola/index.html" target="_blank" title="새창으로 열기">브랜드</a></li>
+								</ul>
+							</li>
+							<li class="li_4">
+								<dfn>수입식품</dfn>
+								<ul class="depth">
+									<li><a href="/brand/banavalley/index.html" target="_blank" title="새창으로 열기">바나밸리</a></li>
+									<li><a href="/brand/zespri/index.html" target="_blank" title="새창으로 열기">제스프리</a></li>
+									<li><a href="/brand/teys/index.html" target="_blank" title="새창으로 열기">TEYS</a></li>
+									<li><a href="/brand/leroy/index.html" target="_blank" title="새창으로 열기">리로이</a></li>
+									<li><a href="/brand/fijiwater/index.html" target="_blank" title="새창으로 열기">피지워터</a></li>
+									<li><a href="/brand/bunge/index.html" target="_blank" title="새창으로 열기">BUNGE</a></li>
+									<li><a href="/brand/coast/index.html" target="_blank" title="새창으로 열기">COAST</a></li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</aside>
+		<footer id="brand_footer">
+		
+		
+		
+			<div class="wrap">
+				<div class="f_list">
+					<a href="/terms/terms.sf" target="_blank">이용약관</a>
+					<a href="/privacy/privacy.sf" target="_blank">개인정보처리방침</a>
+					<a href="/cs/voc.sf" target="_blank">고객지원</a>
+				</div>
+				<address>서울시 성동구 성수일로 56 백영성수센터 (주)신세계푸드</address>
+				<address>TEL <a href="tel:02-3397-6000">02-3397-6000</a> / FAX 02-3397-6199 / 사업자등록번호 215-81-47377</address>
+				<p class="brand_copyright">Copyright &copy; 2015 SHINSEGAE FOOD Inc. ALL RIGHTS RESERVED</p>
+			</div>
+		
+		
+		</footer>
+		<div class="dim"></div>
+	</div>
+</body>
+</html>
