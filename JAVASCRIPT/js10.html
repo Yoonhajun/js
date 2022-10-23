@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <tilte>1~n까지</tilte>
+  </head>
+  <body>
+    
+    <script>
+      var s = 0;
+      var i;
+      var f = '0'
+      n = parseInt(n);
+      var n = window.prompt('숫자를 입력하시오.');
+      for (i=1; i <= n; i++) {
+        document.write('<p>' + i + '</p>')
+        s = s + i;
+        f = f + '+' + i;
+        document.write(f + '=' + s + '<br>');
+      }
+      document.write('<p>SUM: ' + s + '</P>');
+    </script>
+  </body>
+</html>
